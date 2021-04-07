@@ -1,0 +1,15 @@
+{
+  "entryFile": "src/tsoa.ts",
+  "noImplicitAdditionalProperties": "ignore",
+  "controllerPathGlobs": ["src/controllers/*Controller.ts"],
+  "spec": {
+    "specVersion": 3,
+    "schemes": ["https", "http"],
+    "outputDirectory": "docs",
+    "entryFile": "src/tsoa.ts"
+  },
+  "routes": {
+    "routesDir": "src",
+    "middleware": "express"
+  }
+}

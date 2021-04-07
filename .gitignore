@@ -1,0 +1,8 @@
+node_modules
+modules
+dist
+
+src/routes.ts
+docs/swagger.json
+package.zip
+npm-shrinkwrap.json
