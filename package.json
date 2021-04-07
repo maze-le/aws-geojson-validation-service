@@ -1,5 +1,5 @@
 {
-  "name": "geojson-validation-service",
+  "name": "aws-geojson-validation-service",
   "version": "0.1.2",
   "description": "A service that validates geojson files",
   "main": "src/index.ts",
