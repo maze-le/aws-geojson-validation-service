@@ -13,7 +13,7 @@ export class DynamoDbAwsService extends AwsService {
   }
 
   public initialize = (): void => {
-    this.selectedTable = process.env.STARTUP_SIGNUP_TABLE || "";
+    this.selectedTable = process.env.VALIDATION_RESULT_TABLE || "";
     this.db = new AWS.DynamoDB();
   };
 
